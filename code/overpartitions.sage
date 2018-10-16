@@ -29,3 +29,6 @@ def overpartitions(n, max):
 
 def overpartitions_all(n):
     return overpartitions(n,n)
+
+def D_rank(overpartition):
+    return abs(overpartition[0]) - len(overpartition)
