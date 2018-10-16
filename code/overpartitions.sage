@@ -26,3 +26,6 @@ def overpartitions(n, max):
                 list.append(new)
                 list.append(new_ovr)
     return list
+
+def overpartitions_all(n):
+    return overpartitions(n,n)
