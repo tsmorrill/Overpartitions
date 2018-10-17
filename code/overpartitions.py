@@ -44,7 +44,6 @@ def Joichi_Stanton(l,m):
             l = [l + 1 for l in l[:part]] + [-l[part]] + l[part + 1:]
         return l
 
-
 def overpartitions_bounded(n, max):
     list = []
     for part in range(max + 1)[:0:-1]:
@@ -76,6 +75,12 @@ def D_rank(overpartition):
     largest = abs(overpartition[0])
     length = len(overpartition)
     return largest - length
+
+def D_square(overpartition):
+    i = 0
+    while i < len(overpartition) and abs(overpartition[i]) >= i + 1:
+        i += 1
+    return i
 
 def M2_rank(overpartition):
     largest = abs(overpartition[0])
