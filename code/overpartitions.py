@@ -2,16 +2,21 @@
 
 print('Hello, World!')
 
-def partitions(n):
+def partitions_bounded(n, max):
     list = []
-    for part in range(n + 1)[:0:-1]:
-        if part == n:
-            list.append([part])
-        for partition in partitions(n - part):
-            new = [part]
-            new += partition
-            list.append(new)
+    for part in range(max + 1)[:0:-1]:
+        for multiplicity in range(n//part + 1)[:0:-1]:
+            if part*multiplicity == n:
+                new = [part for i in range(multiplicity)]
+                list.append(new)
+            for partition in partitions_bounded(n - part*multiplicity, part - 1):
+                new = [part for i in range(multiplicity)]
+                new += partition
+                list.append(new)
     return list
+
+def partitions(n):
+    return partitions_bounded(n, n)
 
 def overpartitions_bounded(n, max):
     list = []
