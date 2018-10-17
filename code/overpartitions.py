@@ -122,6 +122,18 @@ def dissect_mod_4(ovr):
             ovr3.append(part)
     return(ovr0, ovr1, ovr2, ovr3)
 
+def dissect_part_size(overpartition):
+    list = []
+    if overpartition == []:
+        return list
+    part = abs(overpartition[0])
+    new = []
+    while overpartition != [] and abs(overpartition[0]) == part:
+        new.append(overpartition.pop(0))
+    list.append(new)
+    list += dissect_part_size(overpartition)
+    return(list)
+
 def tableau(overpartition):
     for part in overpartition:
         if part == 0:
