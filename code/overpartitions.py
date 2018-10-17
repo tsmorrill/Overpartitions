@@ -54,7 +54,16 @@ def D_rank(overpartition):
 
 def M2_rank(overpartition):
     largest = abs(overpartition[0])
-    length
+    length = len(overpartition)
+
+def dissect_overlined(ovr):
+    ov0, ovr1 = [], []
+    for part in ovr:
+        if part < 0:
+            ovr0.append(part)
+        else:
+            ovr1.append(part)
+    return(ovr0, ovr1)
 
 def dissect_mod_2(ovr):
     ovr0, ovr1 = [], []
