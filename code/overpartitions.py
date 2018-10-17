@@ -68,7 +68,7 @@ def overpartitions(n):
 def weight(overpartition):
     return sum(abs(part) for part in overpartition)
 
-def forgetful(overpartition):
+def wipe(overpartition):
     return [abs(part) for part in overpartition]
 
 def D_rank(overpartition):
