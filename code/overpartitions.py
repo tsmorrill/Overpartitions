@@ -4,6 +4,20 @@ import math
 
 print('Hello, World!')
 
+def partitions_distinct_bounded(n, max):
+    list = []
+    for part in range(max + 1)[:0:-1]:
+        if part == n:
+            new = [part]
+            list.append(new)
+        for partition in partitions_distinct_bounded(n - part, part - 1):
+            new = [part] + partition
+            list.append(new)
+    return list
+
+def partitions_distinct(n):
+    return partitions_distinct_bounded(n, n)
+
 def partitions_bounded(n, max):
     list = []
     for part in range(max + 1)[:0:-1]:
