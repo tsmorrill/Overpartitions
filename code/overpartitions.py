@@ -1,5 +1,7 @@
 # Manipulates overpartitions as python lists
 
+import math
+
 print('Hello, World!')
 
 def partitions_bounded(n, max):
@@ -49,6 +51,20 @@ def D_rank(overpartition):
     largest = abs(overpartition[0])
     length = len(overpartition)
     return largest - length
+
+def M2_rank(overpartition):
+    largest = abs(overpartition[0])
+    length
+
+def dissect_mod_2(ovr):
+    ovr0, ovr1 = [], []
+    for part in ovr:
+        int = abs(part)
+        if int % 4 == 0:
+            ovr0.append(part)
+        else:
+            ovr1.append(part)
+    return(ovr0, ovr1)
 
 def dissect_mod_4(ovr):
     ovr0, ovr1, ovr2, ovr3 = [], [], [], []
