@@ -121,3 +121,17 @@ def dissect_mod_4(ovr):
         else:
             ovr3.append(part)
     return(ovr0, ovr1, ovr2, ovr3)
+
+def tableau(overpartition):
+    for part in overpartition:
+        if part == 0:
+            dot = '|'
+        elif part < 0:
+            dot = '[*]'
+        else:
+            dot = '[ ]'
+        str = ''
+        for i in range(abs(part) - 1):
+            str += '[ ]'
+        str += dot
+        print(str)
