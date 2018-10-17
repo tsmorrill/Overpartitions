@@ -147,3 +147,7 @@ def tableau(overpartition):
             str += '[ ]'
         str += dot
         print(str)
+
+def scale(overpartition, k):
+    new = [k*part for part in overpartition]
+    return new
