@@ -56,6 +56,8 @@ def M2_rank(overpartition):
     largest = abs(overpartition[0])
     length = len(overpartition)
     length_odd = len(dissect_overlined(dissect_mod_2(overpartition)[1])[1])
+    chi = int(overpartition[0] % 2 == 1 and overpartition[0] < 0)
+    return math.ceil(largest/2) - length + length_odd - chi
 
 def dissect_overlined(ovr):
     ovr0, ovr1 = [], []
