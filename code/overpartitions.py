@@ -20,6 +20,17 @@ def partitions_bounded(n, max):
 def partitions(n):
     return partitions_bounded(n, n)
 
+def Joichi_Stanton(l,m):
+    if m == []:
+        return l
+    elif m[0] >= len(l):
+        print('Error: l(mu) larger than #(lambda).')
+    else:
+        for part in m:
+            l = [l + 1 for l in l[:part]] + [-l[part]] + l[part + 1:]
+        return l
+
+
 def overpartitions_bounded(n, max):
     list = []
     for part in range(max + 1)[:0:-1]:
