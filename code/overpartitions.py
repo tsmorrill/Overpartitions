@@ -34,8 +34,16 @@ def overpartitions_bounded(n, max):
 def overpartitions(n):
     return overpartitions_bounded(n,n)
 
+def weight(overpartition):
+    return sum(abs(part) for part in overpartition)
+
+def forgetful(overpartition):
+    return [abs(part) for part in overpartition]
+
 def D_rank(overpartition):
-    return abs(overpartition[0]) - len(overpartition)
+    largest = abs(overpartition[0])
+    length = len(overpartition)
+    return largest - length
 
 def dissect_mod_4(ovr):
     ovr0, ovr1, ovr2, ovr3 = [], [], [], []
