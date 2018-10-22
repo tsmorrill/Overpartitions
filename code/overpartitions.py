@@ -154,3 +154,7 @@ def conjugate_pairs(list):
             list.remove(item)
             list.remove(conjugate_item)
     return(pairs, list)
+
+def pad_length(overpartition, length):
+    overpartition += [0 for i in range(length - len(overpartition))]
+    return overpartition
