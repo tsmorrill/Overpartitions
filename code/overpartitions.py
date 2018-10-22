@@ -144,3 +144,11 @@ def conjugate(overpartition):
     for cluster in new:
         output += cluster
     return output
+
+def conjugate_pairs(list):
+    pairs = []
+    for item in list:
+        conjugate_item = conjugate(item)
+        pairs.append((item, conjugate_item))
+        list.remove(conjugate_item)
+    return pairs
