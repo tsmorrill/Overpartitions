@@ -2,8 +2,6 @@
 
 import math
 
-print('Hello, World!')
-
 def partitions_distinct_bounded(n, max):
     list = []
     for part in range(max + 1)[:0:-1]:
