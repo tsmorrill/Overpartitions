@@ -158,3 +158,11 @@ def conjugate_pairs(list):
 def pad_length(overpartition, length):
     overpartition += [0 for i in range(length - len(overpartition))]
     return overpartition
+
+def partitions_nonneg(n, length):
+    list = [pad_length(conjugate(item), length) for item in partitions_bounded(n, length)]
+    return list
+
+def overpartitions_nonneg(n, length):
+    list = [pad_length(conjugate(item), length) for item in overpartitions_bounded(n, length)]
+    return list
