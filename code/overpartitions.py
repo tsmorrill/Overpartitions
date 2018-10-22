@@ -1,4 +1,5 @@
-# Manipulates overpartitions as python lists
+# Manipulates overpartitions as Python lists
+# Negative integers indicate overlined parts
 
 import math
 
@@ -147,13 +148,17 @@ def conjugate(overpartition):
 
 def conjugate_pairs(list):
     pairs = []
-    for item in list:
+    singletons = []
+    while len(list) > 0:
+        item = list.pop()
         conjugate_item = conjugate(item)
         if conjugate_item in list:
             pairs.append((item, conjugate_item))
-            list.remove(item)
             list.remove(conjugate_item)
-    return(pairs, list)
+        else:
+            singletons.append(item)
+        print(list)
+    return(pairs, singletons)
 
 def pad_length(overpartition, length):
     overpartition += [0 for i in range(length - len(overpartition))]
