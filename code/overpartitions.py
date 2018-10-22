@@ -87,14 +87,10 @@ def M2_rank(overpartition):
     chi = int(overpartition[0] % 2 == 1 and overpartition[0] < 0)
     return math.ceil(largest/2) - length + length_odd - chi
 
-def dissect_overlined(ovr):
-    ovr0, ovr1 = [], []
-    for part in ovr:
-        if part < 0:
-            ovr0.append(part)
-        else:
-            ovr1.append(part)
-    return(ovr0, ovr1)
+def dissect_overlined(overpartition):
+    overlined = [part for part in overpartition if part < 0]
+    partition = [part for part in overpartition if part > 0]
+    return(overlined, partition)
 
 def dissect_mod_2(ovr):
     ovr0, ovr1 = [], []
