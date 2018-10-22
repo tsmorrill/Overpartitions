@@ -149,6 +149,8 @@ def conjugate_pairs(list):
     pairs = []
     for item in list:
         conjugate_item = conjugate(item)
-        pairs.append((item, conjugate_item))
-        list.remove(conjugate_item)
-    return pairs
+        if conjugate_item in list:
+            pairs.append((item, conjugate_item))
+            list.remove(item)
+            list.remove(conjugate_item)
+    return(pairs, list)
