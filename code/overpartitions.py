@@ -3,6 +3,9 @@
 
 import math
 
+def is_partition(overpartition):
+    return overpartition == wipe(overpartition)
+
 def partitions_distinct_bounded(n, max):
     list = []
     for part in range(max + 1)[:0:-1]:
@@ -181,6 +184,6 @@ def partitions_nonneg(n, length):
 def overpartitions_nonneg(n, length):
     if n == 0:
         partition = [0 for i in range(length)]
-        return [partition]    
+        return [partition]
     list = [pad_length(conjugate(item), length) for item in overpartitions_bounded(n, length)]
     return list
