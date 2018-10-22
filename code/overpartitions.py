@@ -174,6 +174,15 @@ def Frobenius_assemble(alpha, beta):
     else:
         print('Partiton lengths do not match.')
 
+def Frobenius_representation(partition):
+    if not(is_partition(partition)):
+        print('This is not a partition.')
+    else:
+        n = D_square(partition)
+        alpha = [partition[i] - i - 1 for i in range(n)]
+        beta = [conjugate(partition)[i] - i - 1 for i in range(n)]
+        return(alpha, beta)
+
 def partitions_nonneg(n, length):
     if n == 0:
         partition = [0 for i in range(length)]
