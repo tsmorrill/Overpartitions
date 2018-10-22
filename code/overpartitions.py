@@ -163,10 +163,24 @@ def pad_length(overpartition, length):
     overpartition += [0 for i in range(length - len(overpartition))]
     return overpartition
 
+def Frobenius_assemble(alpha, beta):
+    if len(alpha) == len(beta):
+        n = len(alpha)
+        partition = [n + alpha[i] for i in range(n)] + conjugate(beta)
+        return partition
+    else:
+        print('Partiton lengths do not match.')
+
 def partitions_nonneg(n, length):
+    if n == 0:
+        partition = [0 for i in range(length)]
+        return [partition]
     list = [pad_length(conjugate(item), length) for item in partitions_bounded(n, length)]
     return list
 
 def overpartitions_nonneg(n, length):
+    if n == 0:
+        partition = [0 for i in range(length)]
+        return [partition]    
     list = [pad_length(conjugate(item), length) for item in overpartitions_bounded(n, length)]
     return list
