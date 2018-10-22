@@ -149,3 +149,18 @@ def tableau(overpartition):
 def scale(overpartition, k):
     new = [k*part for part in overpartition]
     return new
+
+def conjugate(overpartition):
+    if overpartition == []:
+        return []
+    new  = [0 for i in range(abs(overpartition[0]))]
+    temp = [list for list in dissect_part_size(overpartition)]
+    for cluster in temp:
+        multiplicity = abs(cluster[0])
+        new  = [new[i] +  len(cluster) for i in range(multiplicity - 1)] + [int(math.copysign(new[multiplicity - 1] + len(cluster), cluster[0]))] + new[multiplicity:]
+    new = dissect_part_size(new)
+    new = [cluster[::-1] for cluster in new]
+    output = []
+    for cluster in new:
+        output += cluster
+    return output
