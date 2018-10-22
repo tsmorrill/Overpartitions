@@ -157,7 +157,6 @@ def conjugate_pairs(list):
             list.remove(conjugate_item)
         else:
             singletons.append(item)
-        print(list)
     return(pairs, singletons)
 
 def pad_length(overpartition, length):
