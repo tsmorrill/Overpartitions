@@ -92,40 +92,24 @@ def dissect_overlined(overpartition):
     partition = [part for part in overpartition if part > 0]
     return(overlined, partition)
 
-def dissect_mod_2(ovr):
-    ovr0, ovr1 = [], []
-    for part in ovr:
-        int = abs(part)
-        if int % 2 == 0:
-            ovr0.append(part)
-        else:
-            ovr1.append(part)
-    return(ovr0, ovr1)
+def dissect_mod_2(overpartition):
+    residue_0 = [part for part in overpartition if abs(part) % 2 == 0]
+    residue_1 = [part for part in overpartition if abs(part) % 2 == 1]
+    return(residue_0, residue_1)
 
-def dissect_mod_4(ovr):
-    ovr0, ovr1, ovr2, ovr3 = [], [], [], []
-    for part in ovr:
-        int = abs(part)
-        if int % 4 == 0:
-            ovr0.append(part)
-        elif int % 4 == 1:
-            ovr1.append(part)
-        elif int % 4 == 2:
-            ovr2.append(part)
-        else:
-            ovr3.append(part)
-    return(ovr0, ovr1, ovr2, ovr3)
+def dissect_mod_4(overpartition):
+    residue_0 = [part for part in overpartition if abs(part) % 4 == 0]
+    residue_1 = [part for part in overpartition if abs(part) % 4 == 1]
+    residue_2 = [part for part in overpartition if abs(part) % 4 == 2]
+    residue_3 = [part for part in overpartition if abs(part) % 4 == 3]
+    return(residue_0, residue_1, residue_2, residue_3)
 
 def dissect_part_size(overpartition):
     list = []
-    if overpartition == []:
-        return list
-    part = abs(overpartition[0])
-    new = []
-    while overpartition != [] and abs(overpartition[0]) == part:
-        new.append(overpartition.pop(0))
-    list.append(new)
-    list += dissect_part_size(overpartition)
+    for i in range(abs(overpartition[0]) + 1)[::-1]:
+        cluster = [part for part in overpartition if abs(part) == i]
+        if cluster != []:
+            list.append(cluster)
     return(list)
 
 def tableau(overpartition):
