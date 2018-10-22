@@ -37,7 +37,7 @@ def Joichi_Stanton(l,m):
     if m == []:
         return l
     elif m[0] >= len(l):
-        print('Error: l(mu) larger than #(lambda).')
+        print('Error: l(mu) >= #(lambda).')
     else:
         for part in m:
             l = [l + 1 for l in l[:part]] + [-l[part]] + l[part + 1:]
