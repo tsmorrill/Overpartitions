@@ -1,14 +1,19 @@
 # Manipulates overpartitions as pairs of numpy arrays
 
 import numpy as np
-
 import math
 
 class Overpartition:
 
     def __init__(self, ov, nov):
+
+        ov = list(set(ov))
+        ov.sort(reverse=True)
         ov = np.array(ov)
+        nov.sort(reverse=True)
         nov = np.array(nov)
+
+        self.str = " + ".join(["/"+str(i) for i in ov] + [str(i) for i in nov])
 
         self.ov = ov
         self.nov = nov
@@ -17,24 +22,25 @@ class Overpartition:
         if ov.size == 0:
             self.ov_max = 0
         else:
-            self.ov_max = max(ov)
+            self.ov_max = ov[0]
         if nov.size == 0:
             self.nov_max = 0
         else:
-            self.nov_max = max(nov)
+            self.nov_max = nov[0]
         self.max = max(self.ov_max, self.nov_max)
         self.len = ov.size + nov.size
 
         self.d_rank = self.max - self.len
         w1 = np.count_nonzero(nov == 1)
         m1 = np.count_nonzero(nov > w1)
-        if w1 == 0:
+        if self.len == 0:
+            self.res1crank = 0 
+        elif w1 == 0:
             self.res1crank = max(nov)
         elif w1 == 1 and m1 == 0:
             self.res1crank = 1
         else:
             self.res1crank = m1 - w1
-
 
 def partitions_distinct_bounded(n, max):
     list = []
