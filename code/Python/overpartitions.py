@@ -1,10 +1,40 @@
-# Manipulates overpartitions as Python lists
-# Negative integers indicate overlined parts
+# Manipulates overpartitions as pairs of numpy arrays
+
+import numpy as np
 
 import math
 
-def is_partition(overpartition):
-    return overpartition == wipe(overpartition)
+class Overpartition:
+
+    def __init__(self, ov, nov):
+        ov = np.array(ov)
+        nov = np.array(nov)
+
+        self.ov = ov
+        self.nov = nov
+        self.weight = np.sum(ov) + np.sum(nov)
+
+        if ov.size == 0:
+            self.ov_max = 0
+        else:
+            self.ov_max = max(ov)
+        if nov.size == 0:
+            self.nov_max = 0
+        else:
+            self.nov_max = max(nov)
+        self.max = max(self.ov_max, self.nov_max)
+        self.len = ov.size + nov.size
+
+        self.d_rank = self.max - self.len
+        w1 = np.count_nonzero(nov == 1)
+        m1 = np.count_nonzero(nov > w1)
+        if w1 == 0:
+            self.res1crank = max(nov)
+        elif w1 == 1 and m1 == 0:
+            self.res1crank = 1
+        else:
+            self.res1crank = m1 - w1
+
 
 def partitions_distinct_bounded(n, max):
     list = []
@@ -66,17 +96,6 @@ def overpartitions_bounded(n, max):
 
 def overpartitions(n):
     return overpartitions_bounded(n,n)
-
-def weight(overpartition):
-    return sum(abs(part) for part in overpartition)
-
-def wipe(overpartition):
-    return [abs(part) for part in overpartition]
-
-def D_rank(overpartition):
-    largest = abs(overpartition[0])
-    length = len(overpartition)
-    return largest - length
 
 def D_square(overpartition):
     i = 0
