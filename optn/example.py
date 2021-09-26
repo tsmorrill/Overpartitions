@@ -1,6 +1,8 @@
 from optn import Overpartition
 
-a = Overpartition.from_neg_list([9,-9, 5, 4, 2, 2, -1])
+pi = [-8, 7, -5, 5, 5, 4, -3, 3, 1]
+
+a = Overpartition.from_neg_list(pi)
 print(a)
 print("weight: {}".format(a.weight()))
 print("Dyson rank: {}".format(a.d_rank()))

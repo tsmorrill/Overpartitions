@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class Overpartition:
 
     def __init__(self, ov, nov):
@@ -16,12 +17,12 @@ class Overpartition:
     def str_list(self):
         ov, nov = list(self.ov), list(self.nov)
         part_list = ov + nov
-        part_list.sort(reverse = True)
+        part_list.sort(reverse=True)
         for part in ov:
             part_list[part_list.index(part)] = "/" + str(part)
         return([str(item) for item in part_list])
 
-    def str(self, separator = " + "):
+    def str(self, separator=" + "):
         string = separator.join(self.str_list())
         if string == "":
             return("None")
