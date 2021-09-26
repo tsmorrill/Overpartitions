@@ -1,4 +1,4 @@
-#Overpartitions
+# Overpartitions
 
 ## optn
 Defines a Python class for manipulating overpartitions. Requires numpy.
