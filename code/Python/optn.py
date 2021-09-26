@@ -6,13 +6,20 @@ class Overpartition:
         self.ov = ov
         self.nov = nov
 
-    def str(self):
+    def __str__(self):
+        return self.str()
+
+    def __repr__(self):
+        ov, nov = list(self.ov), list(self.nov)
+        return(str([ov, nov]))
+
+    def str(self, seperator = " + "):
         ov, nov = list(self.ov), list(self.nov)
         part_list = ov + nov
         part_list.sort(reverse = True)
         for part in ov:
             part_list[part_list.index(part)] = "/" + str(part)
-        string = " + ".join([str(item) for item in part_list])
+        string = seperator.join([str(item) for item in part_list])
         return(string)
 
     def weight(self):
@@ -57,8 +64,18 @@ class Overpartition:
         nov = np.array(nov)
         return cls(ov, nov)
 
-a = Overpartition.from_list_pair([3,1],[1,2])
-print(a.str())
+    @classmethod
+    def from_neg_list(cls, neg_list):
+        ov, nov = [], []
+        for part in neg_list:
+            if part < 0:
+                ov.append(-part)
+            else:
+                nov.append(part)
+        return cls.from_list_pair(ov, nov)
+
+a = Overpartition.from_neg_list([-3,-2,-1,1])
+print(a)
 print(a.weight())
 print(a.d_rank())
 print(a.res1crank())
