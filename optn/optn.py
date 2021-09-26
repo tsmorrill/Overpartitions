@@ -20,6 +20,8 @@ class Overpartition:
         for part in ov:
             part_list[part_list.index(part)] = "/" + str(part)
         string = seperator.join([str(item) for item in part_list])
+        if string == "":
+            return("None")
         return(string)
 
     def weight(self):
@@ -103,7 +105,7 @@ class Overpartition:
                 nov.append(part)
         return cls.from_list_pair(ov, nov)
 
-a = Overpartition.from_neg_list([8])
+a = Overpartition.from_neg_list([9,5,-2])
 print(a)
 print(a.weight())
 print(a.d_rank())
