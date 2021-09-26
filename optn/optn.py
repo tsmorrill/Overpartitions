@@ -43,11 +43,11 @@ class Overpartition:
         return(self.max() - self.len())
 
     def res1crank(self):
+        if self.nov.size == 0:
+            return(0)
         w1 = np.count_nonzero(self.nov == 1)
         m1 = np.count_nonzero(self.nov > w1)
-        if self.len == 0:
-            res1crank = 0
-        elif w1 == 0:
+        if w1 == 0:
             res1crank = max(self.nov)
         elif w1 == 1 and m1 == 0:
             res1crank = 1
@@ -57,7 +57,8 @@ class Overpartition:
 
     def frob_rep_1(self):
         ov, nov = list(self.ov), list(self.nov)
-        top, bottom = [], []
+        top = []
+        bottom_ov, bottom_nov = [], []
 
         while len(ov) + len(nov) > 0:
             if len(ov) == 0:
@@ -71,16 +72,16 @@ class Overpartition:
 
             if max_ov >= max_nov:
                 top.append(ov.pop(0))
-                bottom.append(len(nov))
+                bottom_nov.append(len(nov))
                 nov = [part - 1 for part in nov if part > 1]
             else:
                 top.append(nov.pop(0))
-                bottom.append(-len(nov))
+                bottom_ov.append(len(nov))
                 nov = [part - 1 for part in nov if part > 1]
 
         top = [part - 1 for part in top]
         top = Overpartition.from_neg_list(top)
-        bottom = Overpartition.from_neg_list(bottom)
+        bottom = Overpartition.from_list_pair(bottom_ov, bottom_nov)
         return(top, bottom)
 
     @classmethod
@@ -102,7 +103,7 @@ class Overpartition:
                 nov.append(part)
         return cls.from_list_pair(ov, nov)
 
-a = Overpartition.from_neg_list([-8, 7, -5, 5, 5, 4, -3, 3, 1])
+a = Overpartition.from_neg_list([8])
 print(a)
 print(a.weight())
 print(a.d_rank())
