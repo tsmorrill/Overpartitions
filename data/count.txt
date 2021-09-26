@@ -1,0 +1,840 @@
+n = 0
+
+There are 1 overpartitions of 0:
+
+n = 1
+
+There are 2 overpartitions of 1:
+
+There are 1 overpartitions with crank > 0.
+There are 2 net 0's in the first Frobenius representations.
+There are 4 total 0's in the first Frobenius representations.
+
+n = 2
+
+There are 4 overpartitions of 2:
+
+There are 2 overpartitions with crank > 0.
+There are 2 net 0's in the first Frobenius representations.
+There are 4 total 0's in the first Frobenius representations.
+
+There are 1 overpartitions with crank > 1.
+There are 2 net 1's in the first Frobenius representations.
+There are 4 total 1's in the first Frobenius representations.
+
+n = 3
+
+There are 8 overpartitions of 3:
+
+There are 3 overpartitions with crank > 0.
+There are 6 net 0's in the first Frobenius representations.
+There are 10 total 0's in the first Frobenius representations.
+
+There are 2 overpartitions with crank > 1.
+There are 4 net 1's in the first Frobenius representations.
+There are 6 total 1's in the first Frobenius representations.
+
+There are 1 overpartitions with crank > 2.
+There are 2 net 2's in the first Frobenius representations.
+There are 4 total 2's in the first Frobenius representations.
+
+n = 4
+
+There are 14 overpartitions of 4:
+
+There are 6 overpartitions with crank > 0.
+There are 10 net 0's in the first Frobenius representations.
+There are 18 total 0's in the first Frobenius representations.
+
+There are 4 overpartitions with crank > 1.
+There are 6 net 1's in the first Frobenius representations.
+There are 12 total 1's in the first Frobenius representations.
+
+There are 2 overpartitions with crank > 2.
+There are 4 net 2's in the first Frobenius representations.
+There are 6 total 2's in the first Frobenius representations.
+
+There are 1 overpartitions with crank > 3.
+There are 2 net 3's in the first Frobenius representations.
+There are 4 total 3's in the first Frobenius representations.
+
+n = 5
+
+There are 24 overpartitions of 5:
+
+There are 10 overpartitions with crank > 0.
+There are 18 net 0's in the first Frobenius representations.
+There are 32 total 0's in the first Frobenius representations.
+
+There are 7 overpartitions with crank > 1.
+There are 12 net 1's in the first Frobenius representations.
+There are 20 total 1's in the first Frobenius representations.
+
+There are 4 overpartitions with crank > 2.
+There are 8 net 2's in the first Frobenius representations.
+There are 14 total 2's in the first Frobenius representations.
+
+There are 2 overpartitions with crank > 3.
+There are 4 net 3's in the first Frobenius representations.
+There are 6 total 3's in the first Frobenius representations.
+
+There are 1 overpartitions with crank > 4.
+There are 2 net 4's in the first Frobenius representations.
+There are 4 total 4's in the first Frobenius representations.
+
+n = 6
+
+There are 40 overpartitions of 6:
+
+There are 17 overpartitions with crank > 0.
+There are 32 net 0's in the first Frobenius representations.
+There are 56 total 0's in the first Frobenius representations.
+
+There are 12 overpartitions with crank > 1.
+There are 20 net 1's in the first Frobenius representations.
+There are 36 total 1's in the first Frobenius representations.
+
+There are 8 overpartitions with crank > 2.
+There are 14 net 2's in the first Frobenius representations.
+There are 24 total 2's in the first Frobenius representations.
+
+There are 4 overpartitions with crank > 3.
+There are 8 net 3's in the first Frobenius representations.
+There are 14 total 3's in the first Frobenius representations.
+
+There are 2 overpartitions with crank > 4.
+There are 4 net 4's in the first Frobenius representations.
+There are 6 total 4's in the first Frobenius representations.
+
+There are 1 overpartitions with crank > 5.
+There are 2 net 5's in the first Frobenius representations.
+There are 4 total 5's in the first Frobenius representations.
+
+n = 7
+
+There are 64 overpartitions of 7:
+
+There are 28 overpartitions with crank > 0.
+There are 52 net 0's in the first Frobenius representations.
+There are 90 total 0's in the first Frobenius representations.
+
+There are 20 overpartitions with crank > 1.
+There are 34 net 1's in the first Frobenius representations.
+There are 60 total 1's in the first Frobenius representations.
+
+There are 13 overpartitions with crank > 2.
+There are 24 net 2's in the first Frobenius representations.
+There are 40 total 2's in the first Frobenius representations.
+
+There are 8 overpartitions with crank > 3.
+There are 16 net 3's in the first Frobenius representations.
+There are 26 total 3's in the first Frobenius representations.
+
+There are 4 overpartitions with crank > 4.
+There are 8 net 4's in the first Frobenius representations.
+There are 14 total 4's in the first Frobenius representations.
+
+There are 2 overpartitions with crank > 5.
+There are 4 net 5's in the first Frobenius representations.
+There are 6 total 5's in the first Frobenius representations.
+
+There are 1 overpartitions with crank > 6.
+There are 2 net 6's in the first Frobenius representations.
+There are 4 total 6's in the first Frobenius representations.
+
+n = 8
+
+There are 100 overpartitions of 8:
+
+There are 44 overpartitions with crank > 0.
+There are 82 net 0's in the first Frobenius representations.
+There are 142 total 0's in the first Frobenius representations.
+
+There are 32 overpartitions with crank > 1.
+There are 56 net 1's in the first Frobenius representations.
+There are 98 total 1's in the first Frobenius representations.
+
+There are 22 overpartitions with crank > 2.
+There are 38 net 2's in the first Frobenius representations.
+There are 66 total 2's in the first Frobenius representations.
+
+There are 14 overpartitions with crank > 3.
+There are 26 net 3's in the first Frobenius representations.
+There are 44 total 3's in the first Frobenius representations.
+
+There are 8 overpartitions with crank > 4.
+There are 16 net 4's in the first Frobenius representations.
+There are 26 total 4's in the first Frobenius representations.
+
+There are 4 overpartitions with crank > 5.
+There are 8 net 5's in the first Frobenius representations.
+There are 14 total 5's in the first Frobenius representations.
+
+There are 2 overpartitions with crank > 6.
+There are 4 net 6's in the first Frobenius representations.
+There are 6 total 6's in the first Frobenius representations.
+
+There are 1 overpartitions with crank > 7.
+There are 2 net 7's in the first Frobenius representations.
+There are 4 total 7's in the first Frobenius representations.
+
+n = 9
+
+There are 154 overpartitions of 9:
+
+There are 68 overpartitions with crank > 0.
+There are 128 net 0's in the first Frobenius representations.
+There are 220 total 0's in the first Frobenius representations.
+
+There are 51 overpartitions with crank > 1.
+There are 90 net 1's in the first Frobenius representations.
+There are 156 total 1's in the first Frobenius representations.
+
+There are 36 overpartitions with crank > 2.
+There are 62 net 2's in the first Frobenius representations.
+There are 108 total 2's in the first Frobenius representations.
+
+There are 23 overpartitions with crank > 3.
+There are 44 net 3's in the first Frobenius representations.
+There are 72 total 3's in the first Frobenius representations.
+
+There are 14 overpartitions with crank > 4.
+There are 28 net 4's in the first Frobenius representations.
+There are 46 total 4's in the first Frobenius representations.
+
+There are 8 overpartitions with crank > 5.
+There are 16 net 5's in the first Frobenius representations.
+There are 26 total 5's in the first Frobenius representations.
+
+There are 4 overpartitions with crank > 6.
+There are 8 net 6's in the first Frobenius representations.
+There are 14 total 6's in the first Frobenius representations.
+
+There are 2 overpartitions with crank > 7.
+There are 4 net 7's in the first Frobenius representations.
+There are 6 total 7's in the first Frobenius representations.
+
+There are 1 overpartitions with crank > 8.
+There are 2 net 8's in the first Frobenius representations.
+There are 4 total 8's in the first Frobenius representations.
+
+n = 10
+
+There are 232 overpartitions of 10:
+
+There are 103 overpartitions with crank > 0.
+There are 198 net 0's in the first Frobenius representations.
+There are 338 total 0's in the first Frobenius representations.
+
+There are 78 overpartitions with crank > 1.
+There are 138 net 1's in the first Frobenius representations.
+There are 240 total 1's in the first Frobenius representations.
+
+There are 56 overpartitions with crank > 2.
+There are 98 net 2's in the first Frobenius representations.
+There are 168 total 2's in the first Frobenius representations.
+
+There are 38 overpartitions with crank > 3.
+There are 70 net 3's in the first Frobenius representations.
+There are 118 total 3's in the first Frobenius representations.
+
+There are 24 overpartitions with crank > 4.
+There are 46 net 4's in the first Frobenius representations.
+There are 76 total 4's in the first Frobenius representations.
+
+There are 14 overpartitions with crank > 5.
+There are 28 net 5's in the first Frobenius representations.
+There are 46 total 5's in the first Frobenius representations.
+
+There are 8 overpartitions with crank > 6.
+There are 16 net 6's in the first Frobenius representations.
+There are 26 total 6's in the first Frobenius representations.
+
+There are 4 overpartitions with crank > 7.
+There are 8 net 7's in the first Frobenius representations.
+There are 14 total 7's in the first Frobenius representations.
+
+There are 2 overpartitions with crank > 8.
+There are 4 net 8's in the first Frobenius representations.
+There are 6 total 8's in the first Frobenius representations.
+
+There are 1 overpartitions with crank > 9.
+There are 2 net 9's in the first Frobenius representations.
+There are 4 total 9's in the first Frobenius representations.
+
+n = 11
+
+There are 344 overpartitions of 11:
+
+There are 154 overpartitions with crank > 0.
+There are 296 net 0's in the first Frobenius representations.
+There are 504 total 0's in the first Frobenius representations.
+
+There are 118 overpartitions with crank > 1.
+There are 210 net 1's in the first Frobenius representations.
+There are 364 total 1's in the first Frobenius representations.
+
+There are 86 overpartitions with crank > 2.
+There are 152 net 2's in the first Frobenius representations.
+There are 260 total 2's in the first Frobenius representations.
+
+There are 60 overpartitions with crank > 3.
+There are 108 net 3's in the first Frobenius representations.
+There are 182 total 3's in the first Frobenius representations.
+
+There are 39 overpartitions with crank > 4.
+There are 76 net 4's in the first Frobenius representations.
+There are 124 total 4's in the first Frobenius representations.
+
+There are 24 overpartitions with crank > 5.
+There are 48 net 5's in the first Frobenius representations.
+There are 78 total 5's in the first Frobenius representations.
+
+There are 14 overpartitions with crank > 6.
+There are 28 net 6's in the first Frobenius representations.
+There are 46 total 6's in the first Frobenius representations.
+
+There are 8 overpartitions with crank > 7.
+There are 16 net 7's in the first Frobenius representations.
+There are 26 total 7's in the first Frobenius representations.
+
+There are 4 overpartitions with crank > 8.
+There are 8 net 8's in the first Frobenius representations.
+There are 14 total 8's in the first Frobenius representations.
+
+There are 2 overpartitions with crank > 9.
+There are 4 net 9's in the first Frobenius representations.
+There are 6 total 9's in the first Frobenius representations.
+
+There are 1 overpartitions with crank > 10.
+There are 2 net 10's in the first Frobenius representations.
+There are 4 total 10's in the first Frobenius representations.
+
+n = 12
+
+There are 504 overpartitions of 12:
+
+There are 226 overpartitions with crank > 0.
+There are 440 net 0's in the first Frobenius representations.
+There are 746 total 0's in the first Frobenius representations.
+
+There are 176 overpartitions with crank > 1.
+There are 314 net 1's in the first Frobenius representations.
+There are 542 total 1's in the first Frobenius representations.
+
+There are 131 overpartitions with crank > 2.
+There are 230 net 2's in the first Frobenius representations.
+There are 396 total 2's in the first Frobenius representations.
+
+There are 92 overpartitions with crank > 3.
+There are 166 net 3's in the first Frobenius representations.
+There are 280 total 3's in the first Frobenius representations.
+
+There are 62 overpartitions with crank > 4.
+There are 118 net 4's in the first Frobenius representations.
+There are 194 total 4's in the first Frobenius representations.
+There are 40 overpartitions with crank > 5.
+There are 78 net 5's in the first Frobenius representations.
+There are 128 total 5's in the first Frobenius representations.
+
+There are 24 overpartitions with crank > 6.
+There are 48 net 6's in the first Frobenius representations.
+There are 78 total 6's in the first Frobenius representations.
+
+There are 14 overpartitions with crank > 7.
+There are 28 net 7's in the first Frobenius representations.
+There are 46 total 7's in the first Frobenius representations.
+
+There are 8 overpartitions with crank > 8.
+There are 16 net 8's in the first Frobenius representations.
+There are 26 total 8's in the first Frobenius representations.
+
+There are 4 overpartitions with crank > 9.
+There are 8 net 9's in the first Frobenius representations.
+There are 14 total 9's in the first Frobenius representations.
+
+There are 2 overpartitions with crank > 10.
+There are 4 net 10's in the first Frobenius representations.
+There are 6 total 10's in the first Frobenius representations.
+
+There are 1 overpartitions with crank > 11.
+There are 2 net 11's in the first Frobenius representations.
+There are 4 total 11's in the first Frobenius representations.
+
+n = 13
+
+There are 728 overpartitions of 13:
+
+There are 328 overpartitions with crank > 0.
+There are 642 net 0's in the first Frobenius representations.
+There are 1086 total 0's in the first Frobenius representations.
+
+There are 258 overpartitions with crank > 1.
+There are 462 net 1's in the first Frobenius representations.
+There are 798 total 1's in the first Frobenius representations.
+
+There are 194 overpartitions with crank > 2.
+There are 342 net 2's in the first Frobenius representations.
+There are 586 total 2's in the first Frobenius representations.
+
+There are 140 overpartitions with crank > 3.
+There are 252 net 3's in the first Frobenius representations.
+There are 424 total 3's in the first Frobenius representations.
+
+There are 96 overpartitions with crank > 4.
+There are 180 net 4's in the first Frobenius representations.
+There are 298 total 4's in the first Frobenius representations.
+
+There are 63 overpartitions with crank > 5.
+There are 124 net 5's in the first Frobenius representations.
+There are 200 total 5's in the first Frobenius representations.
+
+There are 40 overpartitions with crank > 6.
+There are 80 net 6's in the first Frobenius representations.
+There are 130 total 6's in the first Frobenius representations.
+
+There are 24 overpartitions with crank > 7.
+There are 48 net 7's in the first Frobenius representations.
+There are 78 total 7's in the first Frobenius representations.
+
+There are 14 overpartitions with crank > 8.
+There are 28 net 8's in the first Frobenius representations.
+There are 46 total 8's in the first Frobenius representations.
+
+There are 8 overpartitions with crank > 9.
+There are 16 net 9's in the first Frobenius representations.
+There are 26 total 9's in the first Frobenius representations.
+
+There are 4 overpartitions with crank > 10.
+There are 8 net 10's in the first Frobenius representations.
+There are 14 total 10's in the first Frobenius representations.
+
+There are 2 overpartitions with crank > 11.
+There are 4 net 11's in the first Frobenius representations.
+There are 6 total 11's in the first Frobenius representations.
+
+There are 1 overpartitions with crank > 12.
+There are 2 net 12's in the first Frobenius representations.
+There are 4 total 12's in the first Frobenius representations.
+
+n = 14
+
+There are 1040 overpartitions of 14:
+
+There are 470 overpartitions with crank > 0.
+There are 926 net 0's in the first Frobenius representations.
+There are 1562 total 0's in the first Frobenius representations.
+
+There are 373 overpartitions with crank > 1.
+There are 674 net 1's in the first Frobenius representations.
+There are 1158 total 1's in the first Frobenius representations.
+
+There are 284 overpartitions with crank > 2.
+There are 502 net 2's in the first Frobenius representations.
+There are 860 total 2's in the first Frobenius representations.
+
+There are 208 overpartitions with crank > 3.
+There are 372 net 3's in the first Frobenius representations.
+There are 628 total 3's in the first Frobenius representations.
+
+There are 146 overpartitions with crank > 4.
+There are 272 net 4's in the first Frobenius representations.
+There are 450 total 4's in the first Frobenius representations.
+
+There are 98 overpartitions with crank > 5.
+There are 190 net 5's in the first Frobenius representations.
+There are 310 total 5's in the first Frobenius representations.
+
+There are 64 overpartitions with crank > 6.
+There are 126 net 6's in the first Frobenius representations.
+There are 204 total 6's in the first Frobenius representations.
+
+There are 40 overpartitions with crank > 7.
+There are 80 net 7's in the first Frobenius representations.
+There are 130 total 7's in the first Frobenius representations.
+
+There are 24 overpartitions with crank > 8.
+There are 48 net 8's in the first Frobenius representations.
+There are 78 total 8's in the first Frobenius representations.
+
+There are 14 overpartitions with crank > 9.
+There are 28 net 9's in the first Frobenius representations.
+There are 46 total 9's in the first Frobenius representations.
+
+There are 8 overpartitions with crank > 10.
+There are 16 net 10's in the first Frobenius representations.
+There are 26 total 10's in the first Frobenius representations.
+
+There are 4 overpartitions with crank > 11.
+There are 8 net 11's in the first Frobenius representations.
+There are 14 total 11's in the first Frobenius representations.
+
+There are 2 overpartitions with crank > 12.
+There are 4 net 12's in the first Frobenius representations.
+There are 6 total 12's in the first Frobenius representations.
+
+There are 1 overpartitions with crank > 13.
+There are 2 net 13's in the first Frobenius representations.
+There are 4 total 13's in the first Frobenius representations.
+
+n = 15
+
+There are 1472 overpartitions of 15:
+
+There are 667 overpartitions with crank > 0.
+There are 1324 net 0's in the first Frobenius representations.
+There are 2226 total 0's in the first Frobenius representations.
+
+There are 534 overpartitions with crank > 1.
+There are 968 net 1's in the first Frobenius representations.
+There are 1662 total 1's in the first Frobenius representations.
+
+There are 412 overpartitions with crank > 2.
+There are 728 net 2's in the first Frobenius representations.
+There are 1246 total 2's in the first Frobenius representations.
+
+There are 305 overpartitions with crank > 3.
+There are 546 net 3's in the first Frobenius representations.
+There are 922 total 3's in the first Frobenius representations.
+
+There are 218 overpartitions with crank > 4.
+There are 404 net 4's in the first Frobenius representations.
+There are 668 total 4's in the first Frobenius representations.
+
+There are 150 overpartitions with crank > 5.
+There are 288 net 5's in the first Frobenius representations.
+There are 470 total 5's in the first Frobenius representations.
+
+There are 99 overpartitions with crank > 6.
+There are 196 net 6's in the first Frobenius representations.
+There are 316 total 6's in the first Frobenius representations.
+
+There are 64 overpartitions with crank > 7.
+There are 128 net 7's in the first Frobenius representations.
+There are 206 total 7's in the first Frobenius representations.
+
+There are 40 overpartitions with crank > 8.
+There are 80 net 8's in the first Frobenius representations.
+There are 130 total 8's in the first Frobenius representations.
+
+There are 24 overpartitions with crank > 9.
+There are 48 net 9's in the first Frobenius representations.
+There are 78 total 9's in the first Frobenius representations.
+
+There are 14 overpartitions with crank > 10.
+There are 28 net 10's in the first Frobenius representations.
+There are 46 total 10's in the first Frobenius representations.
+
+There are 8 overpartitions with crank > 11.
+There are 16 net 11's in the first Frobenius representations.
+There are 26 total 11's in the first Frobenius representations.
+
+There are 4 overpartitions with crank > 12.
+There are 8 net 12's in the first Frobenius representations.
+There are 14 total 12's in the first Frobenius representations.
+
+There are 2 overpartitions with crank > 13.
+There are 4 net 13's in the first Frobenius representations.
+There are 6 total 13's in the first Frobenius representations.
+
+There are 1 overpartitions with crank > 14.
+There are 2 net 14's in the first Frobenius representations.
+There are 4 total 14's in the first Frobenius representations.
+
+n = 16
+
+There are 2062 overpartitions of 16:
+
+There are 938 overpartitions with crank > 0.
+There are 1872 net 0's in the first Frobenius representations.
+There are 3140 total 0's in the first Frobenius representations.
+
+There are 756 overpartitions with crank > 1.
+There are 1376 net 1's in the first Frobenius representations.
+There are 2358 total 1's in the first Frobenius representations.
+
+There are 588 overpartitions with crank > 2.
+There are 1042 net 2's in the first Frobenius representations.
+There are 1782 total 2's in the first Frobenius representations.
+
+There are 442 overpartitions with crank > 3.
+There are 790 net 3's in the first Frobenius representations.
+There are 1334 total 3's in the first Frobenius representations.
+
+There are 320 overpartitions with crank > 4.
+There are 588 net 4's in the first Frobenius representations.
+There are 976 total 4's in the first Frobenius representations.
+
+There are 224 overpartitions with crank > 5.
+There are 428 net 5's in the first Frobenius representations.
+There are 698 total 5's in the first Frobenius representations.
+
+There are 152 overpartitions with crank > 6.
+There are 298 net 6's in the first Frobenius representations.
+There are 482 total 6's in the first Frobenius representations.
+
+There are 100 overpartitions with crank > 7.
+There are 198 net 7's in the first Frobenius representations.
+There are 320 total 7's in the first Frobenius representations.
+
+There are 64 overpartitions with crank > 8.
+There are 128 net 8's in the first Frobenius representations.
+There are 206 total 8's in the first Frobenius representations.
+
+There are 40 overpartitions with crank > 9.
+There are 80 net 9's in the first Frobenius representations.
+There are 130 total 9's in the first Frobenius representations.
+
+There are 24 overpartitions with crank > 10.
+There are 48 net 10's in the first Frobenius representations.
+There are 78 total 10's in the first Frobenius representations.
+
+There are 14 overpartitions with crank > 11.
+There are 28 net 11's in the first Frobenius representations.
+There are 46 total 11's in the first Frobenius representations.
+
+There are 8 overpartitions with crank > 12.
+There are 16 net 12's in the first Frobenius representations.
+There are 26 total 12's in the first Frobenius representations.
+
+There are 4 overpartitions with crank > 13.
+There are 8 net 13's in the first Frobenius representations.
+There are 14 total 13's in the first Frobenius representations.
+
+There are 2 overpartitions with crank > 14.
+There are 4 net 14's in the first Frobenius representations.
+There are 6 total 14's in the first Frobenius representations.
+
+There are 1 overpartitions with crank > 15.
+There are 2 net 15's in the first Frobenius representations.
+There are 4 total 15's in the first Frobenius representations.
+
+n = 17
+
+There are 2864 overpartitions of 17:
+
+There are 1306 overpartitions with crank > 0.
+There are 2618 net 0's in the first Frobenius representations.
+There are 4382 total 0's in the first Frobenius representations.
+
+There are 1060 overpartitions with crank > 1.
+There are 1940 net 1's in the first Frobenius representations.
+There are 3318 total 1's in the first Frobenius representations.
+
+There are 832 overpartitions with crank > 2.
+There are 1476 net 2's in the first Frobenius representations.
+There are 2524 total 2's in the first Frobenius representations.
+
+There are 632 overpartitions with crank > 3.
+There are 1128 net 3's in the first Frobenius representations.
+There are 1904 total 3's in the first Frobenius representations.
+
+There are 464 overpartitions with crank > 4.
+There are 850 net 4's in the first Frobenius representations.
+There are 1412 total 4's in the first Frobenius representations.
+
+There are 330 overpartitions with crank > 5.
+There are 626 net 5's in the first Frobenius representations.
+There are 1022 total 5's in the first Frobenius representations.
+
+There are 228 overpartitions with crank > 6.
+There are 444 net 6's in the first Frobenius representations.
+There are 718 total 6's in the first Frobenius representations.
+
+There are 153 overpartitions with crank > 7.
+There are 304 net 7's in the first Frobenius representations.
+There are 488 total 7's in the first Frobenius representations.
+
+There are 100 overpartitions with crank > 8.
+There are 200 net 8's in the first Frobenius representations.
+There are 322 total 8's in the first Frobenius representations.
+
+There are 64 overpartitions with crank > 9.
+There are 128 net 9's in the first Frobenius representations.
+There are 206 total 9's in the first Frobenius representations.
+
+There are 40 overpartitions with crank > 10.
+There are 80 net 10's in the first Frobenius representations.
+There are 130 total 10's in the first Frobenius representations.
+
+There are 24 overpartitions with crank > 11.
+There are 48 net 11's in the first Frobenius representations.
+There are 78 total 11's in the first Frobenius representations.
+
+There are 14 overpartitions with crank > 12.
+There are 28 net 12's in the first Frobenius representations.
+There are 46 total 12's in the first Frobenius representations.
+
+There are 8 overpartitions with crank > 13.
+There are 16 net 13's in the first Frobenius representations.
+There are 26 total 13's in the first Frobenius representations.
+
+There are 4 overpartitions with crank > 14.
+There are 8 net 14's in the first Frobenius representations.
+There are 14 total 14's in the first Frobenius representations.
+
+There are 2 overpartitions with crank > 15.
+There are 4 net 15's in the first Frobenius representations.
+There are 6 total 15's in the first Frobenius representations.
+
+There are 1 overpartitions with crank > 16.
+There are 2 net 16's in the first Frobenius representations.
+There are 4 total 16's in the first Frobenius representations.
+
+n = 18
+
+There are 3948 overpartitions of 18:
+
+There are 1804 overpartitions with crank > 0.
+There are 3638 net 0's in the first Frobenius representations.
+There are 6074 total 0's in the first Frobenius representations.
+
+There are 1474 overpartitions with crank > 1.
+There are 2708 net 1's in the first Frobenius representations.
+There are 4622 total 1's in the first Frobenius representations.
+
+There are 1167 overpartitions with crank > 2.
+There are 2074 net 2's in the first Frobenius representations.
+There are 3544 total 2's in the first Frobenius representations.
+
+There are 894 overpartitions with crank > 3.
+There are 1596 net 3's in the first Frobenius representations.
+There are 2694 total 3's in the first Frobenius representations.
+
+There are 665 overpartitions with crank > 4.
+There are 1214 net 4's in the first Frobenius representations.
+There are 2018 total 4's in the first Frobenius representations.
+
+There are 480 overpartitions with crank > 5.
+There are 904 net 5's in the first Frobenius representations.
+There are 1480 total 5's in the first Frobenius representations.
+
+There are 336 overpartitions with crank > 6.
+There are 652 net 6's in the first Frobenius representations.
+There are 1054 total 6's in the first Frobenius representations.
+
+There are 230 overpartitions with crank > 7.
+There are 454 net 7's in the first Frobenius representations.
+There are 730 total 7's in the first Frobenius representations.
+
+There are 154 overpartitions with crank > 8.
+There are 306 net 8's in the first Frobenius representations.
+There are 492 total 8's in the first Frobenius representations.
+
+There are 100 overpartitions with crank > 9.
+There are 200 net 9's in the first Frobenius representations.
+There are 322 total 9's in the first Frobenius representations.
+
+There are 64 overpartitions with crank > 10.
+There are 128 net 10's in the first Frobenius representations.
+There are 206 total 10's in the first Frobenius representations.
+
+There are 40 overpartitions with crank > 11.
+There are 80 net 11's in the first Frobenius representations.
+There are 130 total 11's in the first Frobenius representations.
+
+There are 24 overpartitions with crank > 12.
+There are 48 net 12's in the first Frobenius representations.
+There are 78 total 12's in the first Frobenius representations.
+
+There are 14 overpartitions with crank > 13.
+There are 28 net 13's in the first Frobenius representations.
+There are 46 total 13's in the first Frobenius representations.
+
+There are 8 overpartitions with crank > 14.
+There are 16 net 14's in the first Frobenius representations.
+There are 26 total 14's in the first Frobenius representations.
+
+There are 4 overpartitions with crank > 15.
+There are 8 net 15's in the first Frobenius representations.
+There are 14 total 15's in the first Frobenius representations.
+
+There are 2 overpartitions with crank > 16.
+There are 4 net 16's in the first Frobenius representations.
+There are 6 total 16's in the first Frobenius representations.
+
+There are 1 overpartitions with crank > 17.
+There are 2 net 17's in the first Frobenius representations.
+There are 4 total 17's in the first Frobenius representations.
+
+n = 19
+
+There are 5400 overpartitions of 19:
+
+There are 2474 overpartitions with crank > 0.
+There are 5010 net 0's in the first Frobenius representations.
+There are 8350 total 0's in the first Frobenius representations.
+
+There are 2032 overpartitions with crank > 1.
+There are 3748 net 1's in the first Frobenius representations.
+There are 6390 total 1's in the first Frobenius representations.
+
+There are 1620 overpartitions with crank > 2.
+There are 2886 net 2's in the first Frobenius representations.
+There are 4924 total 2's in the first Frobenius representations.
+
+There are 1254 overpartitions with crank > 3.
+There are 2236 net 3's in the first Frobenius representations.
+There are 3778 total 3's in the first Frobenius representations.
+
+There are 942 overpartitions with crank > 4.
+There are 1714 net 4's in the first Frobenius representations.
+There are 2852 total 4's in the first Frobenius representations.
+
+There are 688 overpartitions with crank > 5.
+There are 1290 net 5's in the first Frobenius representations.
+There are 2112 total 5's in the first Frobenius representations.
+
+There are 490 overpartitions with crank > 6.
+There are 946 net 6's in the first Frobenius representations.
+There are 1530 total 6's in the first Frobenius representations.
+
+There are 340 overpartitions with crank > 7.
+There are 668 net 7's in the first Frobenius representations.
+There are 1074 total 7's in the first Frobenius representations.
+
+There are 231 overpartitions with crank > 8.
+There are 460 net 8's in the first Frobenius representations.
+There are 736 total 8's in the first Frobenius representations.
+
+There are 154 overpartitions with crank > 9.
+There are 308 net 9's in the first Frobenius representations.
+There are 494 total 9's in the first Frobenius representations.
+
+There are 100 overpartitions with crank > 10.
+There are 200 net 10's in the first Frobenius representations.
+There are 322 total 10's in the first Frobenius representations.
+
+There are 64 overpartitions with crank > 11.
+There are 128 net 11's in the first Frobenius representations.
+There are 206 total 11's in the first Frobenius representations.
+
+There are 40 overpartitions with crank > 12.
+There are 80 net 12's in the first Frobenius representations.
+There are 130 total 12's in the first Frobenius representations.
+
+There are 24 overpartitions with crank > 13.
+There are 48 net 13's in the first Frobenius representations.
+There are 78 total 13's in the first Frobenius representations.
+
+There are 14 overpartitions with crank > 14.
+There are 28 net 14's in the first Frobenius representations.
+There are 46 total 14's in the first Frobenius representations.
+
+There are 8 overpartitions with crank > 15.
+There are 16 net 15's in the first Frobenius representations.
+There are 26 total 15's in the first Frobenius representations.
+
+There are 4 overpartitions with crank > 16.
+There are 8 net 16's in the first Frobenius representations.
+There are 14 total 16's in the first Frobenius representations.
+
+There are 2 overpartitions with crank > 17.
+There are 4 net 17's in the first Frobenius representations.
+There are 6 total 17's in the first Frobenius representations.
+
+There are 1 overpartitions with crank > 18.
+There are 2 net 18's in the first Frobenius representations.
+There are 4 total 18's in the first Frobenius representations.
+
+[Finished in 4.421s]
