@@ -1,5 +1,3 @@
-# Manipulates overpartitions as pairs of numpy arrays
-
 import numpy as np
 import math
 
