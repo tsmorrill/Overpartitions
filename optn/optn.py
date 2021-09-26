@@ -13,13 +13,16 @@ class Overpartition:
         ov, nov = list(self.ov), list(self.nov)
         return(str([ov, nov]))
 
-    def str(self, seperator = " + "):
+    def str_list(self):
         ov, nov = list(self.ov), list(self.nov)
         part_list = ov + nov
         part_list.sort(reverse = True)
         for part in ov:
             part_list[part_list.index(part)] = "/" + str(part)
-        string = seperator.join([str(item) for item in part_list])
+        return([str(item) for item in part_list])
+
+    def str(self, separator = " + "):
+        string = separator.join(self.str_list())
         if string == "":
             return("None")
         return(string)
@@ -113,12 +116,11 @@ class Overpartition:
                 nov.append(part)
         return cls.from_list_pair(ov, nov)
 
-a = Overpartition.from_neg_list([9])
+a = Overpartition.from_neg_list([9,-9, 5, 4, 2, 2, -1])
 print(a)
 print(a.weight())
 print(a.d_rank())
 print(a.res1crank())
 f = a.frob_rep_1()
-
-print(f[0])
-print(f[1])
+print(f[0].str(separator=" "))
+print(f[1].str(separator=" "))
