@@ -25,7 +25,15 @@ class Overpartition:
         return(string)
 
     def weight(self):
-        return(np.sum(self.ov) + np.sum(self.nov))
+        if self.ov.size == 0:
+            ov_weight = 0
+        else:
+            ov_weight = np.sum(self.ov)
+        if self.nov.size == 0:
+            nov_weight = 0
+        else:
+            nov_weight = np.sum(self.nov)
+        return(ov_weight + nov_weight)
 
     def max(self):
         if self.ov.size == 0:
@@ -105,7 +113,7 @@ class Overpartition:
                 nov.append(part)
         return cls.from_list_pair(ov, nov)
 
-a = Overpartition.from_neg_list([9,5,-2])
+a = Overpartition.from_neg_list([9])
 print(a)
 print(a.weight())
 print(a.d_rank())
