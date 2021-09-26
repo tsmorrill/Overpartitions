@@ -52,13 +52,19 @@ class Overpartition:
     def len(self):
         return(self.ov.size + self.nov.size)
 
+    def ov_count(self, part):
+        return(np.count_nonzero(self.ov == part))
+
+    def nov_count(self, part):
+        return(np.count_nonzero(self.nov == part))
+
     def d_rank(self):
         return(self.max() - self.len())
 
     def res1crank(self):
         if self.nov.size == 0:
             return(0)
-        w1 = np.count_nonzero(self.nov == 1)
+        w1 = self.nov_count(1)
         m1 = np.count_nonzero(self.nov > w1)
         if w1 == 0:
             res1crank = max(self.nov)
@@ -118,9 +124,10 @@ class Overpartition:
 
 a = Overpartition.from_neg_list([9,-9, 5, 4, 2, 2, -1])
 print(a)
-print(a.weight())
-print(a.d_rank())
-print(a.res1crank())
+print("weight: {}".format(a.weight()))
+print("Dyson rank: {}".format(a.d_rank()))
+print("first residual crank: {}".format(a.res1crank()))
 f = a.frob_rep_1()
+print("First Frobenius representation:")
 print(f[0].str(separator=" "))
 print(f[1].str(separator=" "))
