@@ -1,4 +1,6 @@
-from optn import Overpartition
+from optn import optn
+
+Overpartition = optn.Overpartition
 
 pi = [-8, 7, -5, 5, 5, 4, -3, 3, 1]
 
