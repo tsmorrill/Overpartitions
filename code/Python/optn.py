@@ -60,7 +60,6 @@ class Overpartition:
         top, bottom = [], []
 
         while len(ov) + len(nov) > 0:
-            print(ov, nov)
             if len(ov) == 0:
                 max_ov = 0
             else:
